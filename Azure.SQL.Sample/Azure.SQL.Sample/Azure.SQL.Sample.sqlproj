@@ -92,12 +92,6 @@
     <RefactorLog Include="Azure.SQL.Sample.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <SqlCmdVariable Include="release">
-      <DefaultValue>20211222001</DefaultValue>
-      <Value>$(SqlCmdVar__1)</Value>
-    </SqlCmdVariable>
-  </ItemGroup>
-  <ItemGroup>
     <PreDeploy Include="Script\Script.PreDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
