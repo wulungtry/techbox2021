@@ -95,6 +95,6 @@
     <PreDeploy Include="Script\Script.PreDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Script\Script.PostDeployment.sql" />
+    <PostDeploy Include="Script\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>

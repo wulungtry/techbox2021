@@ -9,6 +9,3 @@
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-
-:r .\Post\MasterAddressType.sql
-:r .\Post\MasterIdentityType.sql
