@@ -10,36 +10,5 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-INSERT INTO
-    MasterAddressType
-VALUES
-    (
-        'MAT0001',
-        'KTP',
-        GETDATE(),
-        'Wulung',
-        NULL,
-        NULL,
-        NULL,
-        NULL
-    ),
-    (
-        'MAT0002',
-        'Domisili',
-        GETDATE(),
-        'Wulung',
-        NULL,
-        NULL,
-        NULL,
-        NULL
-    ),
-    (
-        'MAT0003',
-        'Darurat',
-        GETDATE(),
-        'Wulung',
-        NULL,
-        NULL,
-        NULL,
-        NULL
-    )
+:r .\post\MasterAddressType.sql
+:r .\post\MasterIdentityType.sql
