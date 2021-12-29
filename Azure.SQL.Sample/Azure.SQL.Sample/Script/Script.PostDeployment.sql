@@ -10,5 +10,6 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
+--
 --:r .\Post\MasterAddressType.sql
 --:r .\Post\MasterIdentityType.sql
